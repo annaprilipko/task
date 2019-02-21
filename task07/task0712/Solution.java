@@ -42,6 +42,6 @@ public class Solution {
         else System.out.println(list.get(maxIndex));
 
 
-        //напишите тут ваш код
+
     }
 }

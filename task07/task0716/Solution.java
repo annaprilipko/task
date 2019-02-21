@@ -10,9 +10,9 @@ import java.util.*;
 public class Solution {
     public static void main(String[] args) throws Exception {
         ArrayList<String> list = new ArrayList<String>();
-        list.add("роза"); // 0
-        list.add("лоза"); // 1
-        list.add("лира"); // 2
+        list.add("роза");
+        list.add("лоза");
+        list.add("лира");
         list = fix(list);
 
         for (String s : list) {
@@ -21,30 +21,6 @@ public class Solution {
     }
 
     public static ArrayList<String> fix(ArrayList<String> list) {
-
-        /*Iterator<String> itr = list.iterator();
-
-        while (itr.hasNext()){
-
-            String str = itr.next();
-
-            if(str.indexOf('р') >= 0 && str.indexOf('л') < 0){
-                itr.remove();
-            }
-        }*/
-
-        /*ListIterator<String> itr = list.listIterator();//РАБОЧЕЕ РЕШЕНИЕ
-
-        while (itr.hasNext()){
-
-            String str = itr.next();
-
-            if(str.indexOf('р') >= 0 && str.indexOf('л') < 0){
-                itr.remove();
-            } else if(str.indexOf('р') < 0 && str.indexOf('л') >= 0){
-                itr.add(str);
-            }
-        }*/
 
 
         ArrayList<String> list2 = new ArrayList<>();
@@ -62,7 +38,6 @@ public class Solution {
 
         }
 
-        //напишите тут ваш код
         return list2;
     }
 }

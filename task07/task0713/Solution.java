@@ -32,7 +32,7 @@ public class Solution {
         printList(listThree);
         printList(listTwo);
         printList(listElse);
-        //напишите тут ваш код
+
     }
 
     public static void printList(List<Integer> list) {
@@ -40,6 +40,6 @@ public class Solution {
         for(int i = 0; i < list.size(); i++){
             System.out.println(list.get(i));
         }
-        //напишите тут ваш код
+
     }
 }

@@ -30,6 +30,6 @@ public class Solution {
         for(int i = 0; i < smallArray2.length; i++){
             System.out.println(smallArray2[i]);
         }
-        //напишите тут ваш код
+
     }
 }

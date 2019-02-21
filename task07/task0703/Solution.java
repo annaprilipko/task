@@ -22,6 +22,6 @@ public class Solution {
         for (int i = 0; i < intArray.length; i++){
             System.out.println(intArray[i]);
         }
-        //напишите тут ваш код
+
     }
 }

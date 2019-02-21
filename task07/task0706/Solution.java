@@ -11,8 +11,8 @@ import java.io.InputStreamReader;
 public class Solution {
     public static void main(String[] args) throws Exception {
         int[] array = new int[15];
-        int sumOdd = 0;//нечетный
-        int sumEven = 0;//четный
+        int sumOdd = 0;
+        int sumEven = 0;
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -28,6 +28,5 @@ public class Solution {
         if (sumEven > sumOdd) System.out.println("В домах с четными номерами проживает больше жителей.");
         else System.out.println("В домах с нечетными номерами проживает больше жителей.");
 
-        //напишите тут ваш код
     }
 }

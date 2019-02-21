@@ -29,7 +29,6 @@ public class Solution {
             System.out.println(key + " - " + value);
         }
 
-        //напишите тут ваш код
 
     }
 }

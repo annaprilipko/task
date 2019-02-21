@@ -10,7 +10,6 @@ public class Solution {
             System.out.println(i);
             Thread.sleep(100);
 
-            //напишите тут ваш код
         }
 
         System.out.println("Бум!");

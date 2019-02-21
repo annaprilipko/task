@@ -42,9 +42,6 @@ public class Solution {
         private int weight;
         private int tailLength;
 
-        /*Cat(String name) {
-            this.name = name;
-        }*/
 
         Cat(String name, int age, int weight, int tailLength) {
             this.name = name;

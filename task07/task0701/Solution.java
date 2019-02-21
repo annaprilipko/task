@@ -22,7 +22,7 @@ public class Solution {
         for(int i = 0; i < arr.length; i++){
             arr[i] = Integer.parseInt(reader.readLine());
         }
-        // создай и заполни массив
+
         return arr;
     }
 
@@ -32,7 +32,7 @@ public class Solution {
         for(int i = 0; i < array.length; i++){
             if(array[i] > max) max = array[i];
         }
-        // найди максимальное значение
+
         return max;
     }
 }

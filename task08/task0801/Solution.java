@@ -29,7 +29,5 @@ public class Solution {
             System.out.println(str);
         }
 
-        //напишите тут ваш код
-
     }
 }

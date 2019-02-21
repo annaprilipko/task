@@ -40,10 +40,5 @@ public class Solution {
             System.out.println(arr[i]);
         }
 
-
-
-
-
-        //напишите тут ваш код
     }
 }

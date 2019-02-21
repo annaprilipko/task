@@ -18,7 +18,7 @@ public class Solution {
         for(int i = 0; i < 10; i++){
             list.add(reader.readLine());
         }
-        // Считать строки с консоли и объявить ArrayList list тут
+
 
         ArrayList<String> result = doubleValues(list);
 
@@ -26,7 +26,6 @@ public class Solution {
             System.out.println(s);
         }
 
-        // Вывести на экран result
     }
 
     public static ArrayList<String> doubleValues(ArrayList<String> list) {
@@ -38,7 +37,6 @@ public class Solution {
             itr.add(str);
         }
 
-        //напишите тут ваш код
         return list;
     }
 }

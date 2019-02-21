@@ -30,8 +30,6 @@ public class Solution {
         System.out.println(child2.toString());
         System.out.println(child3.toString());
 
-
-        // напишите тут ваш код
     }
 
     public static class Human {
@@ -55,7 +53,6 @@ public class Solution {
             this.mother = mother;
         }
 
-        // напишите тут ваш код
 
         public String toString() {
             String text = "";

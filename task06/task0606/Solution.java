@@ -26,6 +26,5 @@ public class Solution {
 
         System.out.println("Even: " + even + " Odd: " + odd);
 
-        //напишите тут ваш код
     }
 }

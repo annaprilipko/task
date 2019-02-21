@@ -32,6 +32,6 @@ public class Solution {
                 System.out.println(strings.get(i));
             }
         }
-        //напишите тут ваш код
+
     }
 }

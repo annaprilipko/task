@@ -31,6 +31,5 @@ public class Solution {
             System.out.println(list.get(i));
         }
 
-        //напишите тут ваш код
     }
 }
