@@ -29,6 +29,6 @@ public class Solution {
         for(Map.Entry<String, String> pair: map.entrySet()){
             System.out.println(pair.getKey());
         }
-        //напишите тут ваш код
+
     }
 }

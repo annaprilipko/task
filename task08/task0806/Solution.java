@@ -25,7 +25,5 @@ public class Solution {
             System.out.println(pair.getKey() + " " + pair.getValue());
         }
 
-        //напишите тут ваш код
-
     }
 }
