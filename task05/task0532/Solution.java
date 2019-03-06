@@ -7,7 +7,8 @@ import static java.lang.System.*;
 /*
 Задача по алгоритмам
 */
-
+//Что будет выведено если первое число 0?
+//что будет выведено если первое число -1?
 public class Solution {
     public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
