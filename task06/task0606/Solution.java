@@ -5,7 +5,7 @@ import java.io.*;
 /* 
 Чётные и нечётные циферки
 */
-
+//Что если ввести отрицательное число?
 public class Solution {
 
     public static int even;
