@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 /* 
 Один большой массив и два маленьких
 */
-
+//посмотри пожалуйста на метод System.arraycopy(...) он как раз служит для такой задачи
 public class Solution {
     public static void main(String[] args) throws Exception {
         int[] bigArray = new int[20];
