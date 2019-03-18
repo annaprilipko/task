@@ -12,6 +12,7 @@ public class Solution {
         String[] array = new String[10];
 
         for(int i = 0; i < 8; i++){
+            //подозреваю что нам не надо создавать новый ридер каждый раз
             BufferedReader reader = new BufferedReader((new InputStreamReader(System.in)));
             array[i] = reader.readLine();
         }
