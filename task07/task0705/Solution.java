@@ -19,6 +19,7 @@ public class Solution {
             bigArray[i] = Integer.parseInt(reader.readLine());
         }
 
+        //для копирования массивов всегда лучше использовать системную функцию System.arrayCopy
         for( int i = 0; i < smallArray1.length; i++){
             smallArray1[i] = bigArray[i];
         }
